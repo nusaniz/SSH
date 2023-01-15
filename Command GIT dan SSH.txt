@@ -1,3 +1,9 @@
+Perbedaan HTTPS dan SSH
+HTTPS---mudah, butuh login, protokol tanpa enkripsi
+SSH---setup sulit, tanpa login, protokol terenkripsi
+
+
+
 1. Bikin folder yang sudah di init (git init) --------agar semua perubahan dalam folder bisa terekam secara history
 2. ssh-keygen (copas indah.pub ke github ssh) -----------autentikasi ssh ke github
 3. eval $(ssh-agent) ------------menjalankan ssh agent
