@@ -32,4 +32,5 @@ Ketika menghapus branch melalui terminal, maka yang terhapus adalah branch lokal
 Jika kita keluar dari gitbash, dan ingin mengerjakan lagi, maka harus setup ulang singkat:
 
 1. eval $(ssh-agent) --------menyalakan ssh-agent
-2. ssh-add indah ----------menambahkan ulang log id ssh
+2. ssh-add ~/.ssh/indah ----------menambahkan ulang log id ssh
+3. ~/.ssh/ -------------lokasi key
