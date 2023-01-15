@@ -12,3 +12,9 @@ SSH---setup sulit, tanpa login, protokol terenkripsi
 6. git add .
 7. git commit -am / -m "catatan"
 8. git push origin master
+
+
+Jika kita keluar dari gitbash, dan ingin mengerjakan lagi, maka harus setup ulang singkat:
+
+1. eval $(ssh-agent) --------menyalakan ssh-agent
+2. ssh-add indah ----------menambahkan ulang log id ssh
