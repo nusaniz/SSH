@@ -3,6 +3,14 @@ HTTPS---mudah, butuh login, protokol tanpa enkripsi
 SSH---setup sulit, tanpa login, protokol terenkripsi
 
 
+Konfigurasi GIT
+
+1. git config --global --user.mail="emailgithubkalian@gmail.com"
+2. git config --global --user.name="username github kalian"
+
+
+
+SSH
 
 1. Bikin folder yang sudah di init (git init) --------agar semua perubahan dalam folder bisa terekam secara history
 2. ssh-keygen (copas indah.pub ke github ssh) -----------autentikasi ssh ke github
