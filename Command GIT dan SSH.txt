@@ -12,6 +12,13 @@ SSH---setup sulit, tanpa login, protokol terenkripsi
 6. git add .
 7. git commit -am / -m "catatan"
 8. git push origin master
+9. git branch [nama branch baru]
+10. git branch -D [nama branch yg ingin dihapus]
+11. git branch ----------melihat daftar branch
+
+
+NOTE:
+Ketika menghapus branch melalui terminal, maka yang terhapus adalah branch lokal saja. Branch yang berada di github akan tetap ada. Maka, hapus manual melalui website github secara manual.
 
 
 Jika kita keluar dari gitbash, dan ingin mengerjakan lagi, maka harus setup ulang singkat:
