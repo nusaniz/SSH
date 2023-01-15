@@ -1,0 +1,8 @@
+1. Bikin folder yang sudah di init (git init) --------agar semua perubahan dalam folder bisa terekam secara history
+2. ssh-keygen (copas indah.pub ke github ssh) -----------autentikasi ssh ke github
+3. eval $(ssh-agent) ------------menjalankan ssh agent
+4. ssh-add indah (sesuaikan dengan nama id ssh di no 2) --------menambahkan log id ssh key
+5. git remote add origin git@github.com:nusaniz/SSH.git (sesuaikan dgn repo yang ingin diremote SSH)
+6. git add .
+7. git commit -am / -m "catatan"
+8. git push origin master
